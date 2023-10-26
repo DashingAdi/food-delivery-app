@@ -7,7 +7,7 @@ import Footer from '@/Components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Food delivery app and restaurant reservation',
+  title: 'Foodie by Dev Dynamos',
   description: 'Offers features like real-time order tracking, table reservations, and restaurant reviews.',
 }
 

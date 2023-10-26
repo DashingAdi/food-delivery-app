@@ -1,5 +1,4 @@
 import React from 'react'
-import Menu from './Menu'
 import { Avatar, AvatarImage, AvatarFallback } from './ui/avatar'
 import Link from 'next/link'
 
@@ -17,7 +16,7 @@ const LandingPage = () => {
                         Discover what you need easily!
                     </h3>
 
-                    <Link href='/Delivery' class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+                    <Link href='/Menu' class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
                         Order Now
                     </Link>
                 </div>
@@ -25,39 +24,24 @@ const LandingPage = () => {
             <div class="cards-hed">
                 <h2>
                     <pre>
-                        View All Our Latest
+                        View All Our New Openings
                     </pre>
                 </h2>
             </div>
             <div class="cards">
-                <div class="card">
-                    <div class="main-img">
-
-                    </div>
+                <div class="card c1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
-                <div class="card">
-                    <span class="material-symbols-outlined">
-                        check
-                    </span>
+                <div class="card c2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
-                <div class="card">
-                    <span class="material-symbols-outlined">
-                        check
-                    </span>
+                <div class="card c3">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
-                <div class="card">
-                    <span class="material-symbols-outlined">
-                        check
-                    </span>
+                <div class="card c4">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
-                <div class="card">
-                    <span class="material-symbols-outlined">
-                        check
-                    </span>
+                <div class="card c5">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
             </div>

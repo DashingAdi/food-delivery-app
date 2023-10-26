@@ -1,6 +1,19 @@
-import React from 'react'
+"use client"
+
+import React, { useState } from 'react'
 
 const ShoppingCart = () => {
+  const [items, setItems] = useState(0)
+
+  const increment = () => {
+    setItems(items + 1)
+  }
+  const decrement = () => {
+    if (items-1 >= 0 ) {
+      setItems(items - 1)
+    }
+  }
+
   return (
     <div>
       <div class="bg-gray-100 h-screen py-8 mt-4">
@@ -22,16 +35,16 @@ const ShoppingCart = () => {
                     <tr>
                       <td class="py-4">
                         <div class="flex items-center">
-                          <img class="h-16 w-16 mr-4" src="https://via.placeholder.com/150" alt="Product image"/>
-                            <span class="font-semibold">Product name</span>
+                          <img class="h-16 w-16 mr-4 rounded-md" src="https://falasteenifoodie.com/wp-content/uploads/2023/04/Strawberry-Cheesecake-Croissant.jpeg" alt="Product image"/>
+                            <span class="font-semibold">Berry Croissant</span>
                         </div>
                       </td>
                       <td class="py-4">$19.99</td>
                       <td class="py-4">
                         <div class="flex items-center">
-                          <button class="border rounded-md py-2 px-4 mr-2">-</button>
-                          <span class="text-center w-8">1</span>
-                          <button class="border rounded-md py-2 px-4 ml-2">+</button>
+                          <button onClick={decrement} class="border rounded-md py-2 px-4 mr-2">-</button>
+                          <span class="text-center w-8">{items}</span>
+                          <button onClick={increment} class="border rounded-md py-2 px-4 ml-2">+</button>
                         </div>
                       </td>
                       <td class="py-4">$19.99</td>

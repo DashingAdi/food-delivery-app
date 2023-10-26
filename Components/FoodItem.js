@@ -1,17 +1,18 @@
 "use client"
 
-import React, { use, useCallback, useContext, useDeferredValue, useEffect, useState } from 'react'
-import Example from '@/Components/Delivery/ShoppingCart'
+import React, { useState } from 'react'
 
 
-const Menu = (props) => {
+const FoodItem = (props) => {
   const [items, setItems] = useState(0)
 
   const increment = () => {
     setItems(items + 1)
   }
   const decrement = () => {
-    setItems(items - 1)
+    if (items-1 >= 0 ) {
+      setItems(items - 1)
+    }
   }
 
   return (
@@ -39,4 +40,4 @@ const Menu = (props) => {
   )
 }
 
-export default Menu
+export default FoodItem

@@ -9,8 +9,10 @@ const Footer = () => {
                 <div class="md:flex md:justify-between px-8">
                     <div class="md:flex md: flex-col">
                         <div class="mb-6 md:mb-0">
-                            <Link href="/" class="flex items-center">
-                                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" />
+                            <Link href="/" class="flex flex-col items-left">
+                                <img src="https://lh3.google.com/u/0/d/1CeJ2N-cd-YjqLFTJ-mJ1rEEAR03mTCqx=w1920-h991-iv1" class="w-20 mr-3" alt="FlowBite Logo" />
+                                <span class="pt-3 pl-2 whitespace-nowrap dark:text-white">by</span>
+                                {/* <span class="self-center whitespace-nowrap dark:text-white">by</span> */}
                                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Dev Dynamos</span>
                             </Link>
                         </div>

@@ -87,7 +87,6 @@
 .card{
   width: 175px;
   height: 300px;
-  background-image: linear-gradient(to top, rgb(32, 32, 32), rgb(91, 176, 255));
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -116,7 +115,6 @@
   background-image: linear-gradient(to top, rgb(32, 32, 32), rgb(255, 71, 86));
 }
 
-
 .card:hover{
   transform: scale(1.1);
 }
@@ -134,7 +132,7 @@
 }
 
 .bg-img{
-  background-image: url('../Components/img.png');
+  background-image: url('./imgs/img.png');
   background-size: cover;
 }
 
@@ -188,4 +186,117 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+}
+
+.main-img img{
+  width: 100px;
+}
+
+.box {
+  height: 100vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.219);
+  backdrop-filter: blur(20px);
+  gap: 25px;
+}
+
+/* Login Form */
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("./imgs/bg2.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+.acc p {
+  display: inline;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+input {
+  display: block;
+}
+.icon {
+  display: inline;
+}
+.formbox div {
+  margin: 30px;
+}
+.formbox {
+  width: 500px;
+}
+.btn {
+  width: 450px;
+  height: 45px;
+  border: 0;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  transition: 200ms ease-in-out;
+}
+input {
+  width: 450px;
+  height: 40px;
+  border: 0;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+  transition: ease-in-out;
+  padding: 10px;
+}
+.forgot a {
+  text-align: center;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 2px white;
+}
+
+.google img {
+  height: 25px;
+}
+
+@media (width <= 1250px) {
+  .box {
+    width: 100vw;
+    backdrop-filter: blur(10px);
+  }
+}
+
+.card.c1{
+  background-image: url('https://assets.architecturaldigest.in/photos/6385cf3311f0276636badfb6/16:9/w_2560%2Cc_limit/DSC_8367-Edit-W.png');
+  background-size: cover;
+}
+.card.c2{
+  background-image: url('https://images.adsttc.com/media/images/5e4c/1025/6ee6/7e0b/9d00/0877/large_jpg/feature_-_Main_hall_1.jpg?1582043123');
+  background-size: cover;
+}
+.card.c3{
+  background-image: url('https://toohotel.com/wp-content/uploads/2022/09/TOO_restaurant_Panoramique_vue_Paris_nuit_v2-scaled.jpg');
+  background-size: cover;
+}
+.card.c4{
+  background-image: url('https://b.zmtcdn.com/data/collections/2e5c28a5fbcb2b35d84c0a498b0e1ba2_1674823998.jpg');
+  background-size: cover;
+}
+.card.c5{
+  background-image: url('https://assets.architecturaldigest.in/photos/63733ec2a2dd6ea6560eb6da/3:2/w_1620,h_1080,c_limit/Ditas%20Interior%20Image%20-%201%20(8).png');
+  background-size: cover;
 }

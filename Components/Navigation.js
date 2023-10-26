@@ -5,13 +5,9 @@ import Link from 'next/link'
 
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
   navigationMenuTriggerStyle
 } from "@/Components/ui/navigation-menu"
 
@@ -27,7 +23,7 @@ const NavigationBar = () => {
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>Home</NavigationMenuLink>
               </NavigationMenuItem>
             </Link>
-            <Link href='/'>
+            <Link href='/Menu'>
               <NavigationMenuItem>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>Search</NavigationMenuLink>
               </NavigationMenuItem>

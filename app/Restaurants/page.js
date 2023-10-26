@@ -1,10 +1,10 @@
 "use client"
 import React from 'react'
 
-const Delivery = () => {
+const Restaurants = () => {
   return (
     <div>page</div>
   )
 }
 
-export default Delivery
+export default Restaurants

@@ -1,4 +1,4 @@
-import ShoppingCart from '@/Components/Menu/ShoppingCart'
+import ShoppingCart from '@/Components/ShoppingCart'
 import React from 'react'
 
 const Cart = () => {

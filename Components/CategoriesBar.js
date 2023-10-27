@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FoodBadge = () => {
+const CategoriesBar = () => {
     return (
         <>
             <div className="badges">
@@ -24,4 +24,4 @@ const FoodBadge = () => {
   )
 }
 
-export default FoodBadge
+export default CategoriesBar

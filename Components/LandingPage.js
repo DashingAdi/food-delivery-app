@@ -24,25 +24,25 @@ const LandingPage = () => {
             <div class="cards-hed">
                 <h2>
                     <pre>
-                        View All Our New Openings
+                        Checkout All Our New Openings
                     </pre>
                 </h2>
             </div>
             <div class="cards">
                 <div class="card c1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    
                 </div>
                 <div class="card c2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    
                 </div>
                 <div class="card c3">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    
                 </div>
                 <div class="card c4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    
                 </div>
                 <div class="card c5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    
                 </div>
             </div>
             <section class="test">

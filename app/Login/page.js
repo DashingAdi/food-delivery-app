@@ -1,6 +1,26 @@
-import React from 'react'
+"use client"
+
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
+
+  const notify = () => {
+    event.preventDefault();
+    toast.success('Login Sucessful!', {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    }); 
+  }
+
   return (
     <>
       <div class="wrapper">
@@ -19,7 +39,8 @@ const Login = () => {
               <input id="pass" type="password" placeholder="Password" />
             </div>
             <div class="login">
-              <button class="btn" type="submit">Login</button>
+              <button class="btn" type="submit" onClick={notify} on>Login</button>
+              
             </div>
             <div class="google">
               <button class="btn" type="submit">Login in with Google</button>
@@ -33,6 +54,7 @@ const Login = () => {
             </div>
           </form>
         </div>
+        <ToastContainer/>
       </div>
 
     </>
